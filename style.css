@@ -1,0 +1,85 @@
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-section {
+    width: 100%;
+    height: auto;
+}
+
+.qr-content-container {
+    width: 300px;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 1rem;
+    border: 3px solid white;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+
+}
+
+.qr-image-container {
+    width: fit-content;
+    height: auto;
+    background-color: white;
+}   
+
+.qr-image-container img {
+    width: 260px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.qr-text-container {
+    width: 100%;
+    padding: 0 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: center;
+    background-color: white;
+    row-gap: 0.6rem;
+  
+
+}
+
+.qr-text-container h1 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    background-color: white;
+
+}
+
+.qr-text-container p {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(185, 185, 185);
+    background-color: white;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 500px;
+} 
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+
